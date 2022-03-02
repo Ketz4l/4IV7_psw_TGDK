@@ -1,0 +1,57 @@
+@keyframes animacion_test{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes label-animacion{
+    from{
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+    to{
+        transform: rotate(180deg);
+        margin-left: 85vw;
+    }
+}
+
+.label-container{
+    width: 100%;
+    padding: 1.3rem;
+    box-sizing: border-box;
+}
+
+.loader-double{
+    width: 64px;
+    height: 64px;
+    border: 16px solid blue;
+    border-top: 16px solid yellow;
+    border-bottom: 16px solid yellow;
+    border-radius: 50%;
+    animation: girar 2s linear infinite;
+    align-content: right;
+}
+
+.animada{
+    width: 100%;
+    background-color: rgba(179, 139, 216, 0.767);
+    color: aliceblue;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacion_test 2s alternate infinite;
+}
