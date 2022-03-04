@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automovil</title>
+    <link rel="stylesheet" href="../ExamenPractico/css/style.css">
+    <script src="../ExamenPractico/js/validacion.js" ></script>
+</head>
+<body>
+    <div class="main-container" >
+        <header>
+            <nav> 
+                <h1>Automovil</h1> 
+            </nav>
+        </header>
+        <section>
+            <h2>Compra de automovil</h2>
+            <article>
+                <br>
+                <form method="post" name="Auto" 
+                onsubmit="return validar(this)"  action="">
+                    <label> Ingresa el valor del automovil: </label>
+                    <br>
+                    <input type="number" name="automovil" id="automovil" >
+                    <br>
+                    <label> Ingrese su cuota inicial: </label>
+                    <br>
+                    <input type="numbre" name="cuoini" id="cuoini" >
+                    <br>
+                    <label> ¿Cuál es el periodo de meses en que quiere liquidar el automovil? (3, 6, 9, 12 o 18): </label>
+                    <br>
+                    <input type="number" name="periodo" id="periodo" >
+                    <br>
+                    <input type="submit" name="enviar" value="Enviar Datos" >
+                    <br>
+                    <input type="reset" name="borrar" value="Borrrar Datos">
+                    <br>
+                    <input type="reset" name="modificar" value="Modificar Datos">
+                    <br>
+                    <br>
+                    <br>
+                    <label> El interés que tendrá es de: </label>
+                    <br>
+                    <input type="numbre" name="interes" id="interes" >
+                    <br>
+                    <label> La cuota que deberá pagar es de: </label>
+                    <br>
+                    <input type="numbre" name="cuota" id="cuota" >
+                    <br>
+                    <br>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <h3>Nombre: Torres Gonzalez Damarix Ketzal
+                Grupo: 4IV7
+                Sección: B
+            </h3>
+        </footer>
+    </div>
+</body>
+</html>
