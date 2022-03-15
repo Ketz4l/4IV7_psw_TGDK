@@ -23,6 +23,6 @@ var checkOK = "1234567890";
 
     var escorrecto = true;
 
-var suminteres = (cuota*3.94)/100;
+var suminteres = (cuota*3.94)/100;s
 
     var interes = cuota+suminteres;
