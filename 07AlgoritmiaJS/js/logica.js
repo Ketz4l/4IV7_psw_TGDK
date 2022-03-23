@@ -18,7 +18,7 @@ function problema1(){
 function problema2(){
     var p2_prodesc = x1 * y1 + x2 * y2 + x3 * y3 + x4 * y4 + x5 * y5;
     if(x1,x2,x3,x4,x5,y1,y2,y3,y4,y5 < -1){
-        p2x1,x2,x3,x4,x5,y1,y2,y3,y4,y5 * = -1
+        p2x1,x2,x3,x4,x5,y1,y2,y3,y4,y5 * -1
     }
     var x1 = parseInt(document.getElementById("p2-x1").value)
     var x2 = parseInt(document.getElementById("p2-x2").value)
