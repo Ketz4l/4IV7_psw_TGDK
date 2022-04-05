@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmia</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--PROBLEMA 1-->
+    <h1>PROBLEMA 1</h1>
+    <form class="formulario" name="formulario1" method="post">
+        <label> Comparacion de Numeros</label>
+        <br>
+        <table class="table1">
+            <tr>
+                <td> Introduzca el primer numero : </td>
+                <td><input class = 'Entrada' type="number" id="p1numero1" onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr>
+                <td> Introduzca el segundo numero : </td>
+                <td><input class = 'Entrada' type="number" id = 'p1numero2' onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr><td colspan="2"><hr class="hr1"></td></tr>
+            <tr>
+                <td class = 'tdSalida' id = 'tdSalida1'></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+        <div class = 'container2'>
+        <input class = 'boton1' type="button" name="enviar" value="COMPARAR" onclick="comparar()">
+        <br>
+        <input class = 'boton1' type="button" value="BORRAR DATOS" name="borrar" onclick="borrarF1()">
+    </div>
+    <!--PROBLEMA 2-->
+    <hr>
+    <h1>PROBLEMA 2</h1>
+    <form class="formulario" name="formulario2" method="post">
+        <label> Numero Mayor</label>
+        <br>
+        <table class="table1">
+            <tr>
+                <td> Introduzca el primer numero : </td>
+                <td><input class = 'Entrada' type="number" id="p2numero1" onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr>
+                <td> Introduzca el segundo numero : </td>
+                <td><input class = 'Entrada' type="number" id = 'p2numero2' onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr>
+                <td> Introduzca el tercer numero : </td>
+                <td><input class = 'Entrada' type="number" id = 'p2numero3' onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr><td colspan="2"><hr class="hr1"></td></tr>
+            <tr>
+                <td class = 'tdSalida' id = 'tdSalida2'></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+    <div class = 'container2'>
+        <input class = 'boton1' type="button" name="enviar" value="COMPARAR" onclick="numeroMayor()">
+        <br>
+        <input class = 'boton1' type="button" value="BORRAR DATOS" name="borrar" onclick="borrarF2()">
+    </div>
+    <!--PROBLEMA 3-->
+    <hr>
+    <h1>PROBLEMA 3</h1>
+    <form class="formulario" name="formulario3" method="post">
+        <label> Sueldo de Trabajador</label>
+        <br>
+        <table class="table1">
+            <tr>
+                <td> Introduzca las horas trabajadas : </td>
+                <td><input class = 'Entrada' type="number" id="horasTrabajadas" onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr>
+                <td> Introduzca el salario por hora : $</td>
+                <td><input class = 'Entrada' type="number" id = 'salarioHora' onkeypress="return validar1(event)"></td>
+            </tr>
+            <tr><td colspan="2"><hr class="hr1"></td></tr>
+            <tr>
+                <td class = 'tdSalida' id = 'tdSalida3'></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+    <div class = 'container2'>
+        <input class = 'boton1' type="button" name="enviar" value="COMPARAR" onclick="calcularSalario()">
+        <br>
+        <input class = 'boton1' type="button" value="BORRAR DATOS" name="borrar" onclick="borrarF3()">
+    </div>
+     <!--PROBLEMA 4-->
+     <hr>
+     <h1>PROBLEMA 4</h1>
+     <form class="formulario" name="formulario4" method="post">
+         <label> Utilidad de trabajadores</label>
+         <br>
+         <table class="table1">
+             <tr>
+                 <td> Introduzca la antiguedad en la empresa : </td>
+                 <td><input class = 'Entrada' type="number" id="antiguedad" onkeypress="return validar1(event)"></td>
+             </tr>
+             <tr>
+                 <td> Introduzca salario mensual : $</td>
+                 <td><input class = 'Entrada' type="number" id = 'salarioMensual' onkeypress="return validar1(event)"></td>
+             </tr>
+             <tr><td colspan="2"><hr class="hr1"></td></tr>
+             <tr>
+                 <td class = 'tdSalida' id = 'tdSalida4'></td>
+                 <td></td>
+             </tr>
+         </table>
+     </form>
+     <div class = 'container2'>
+         <input class = 'boton1' type="button" name="enviar" value="COMPARAR" onclick="calcularUtilidad()">
+         <br>
+         <input class = 'boton1' type="button" value="BORRAR DATOS" name="borrar" onclick="borrarF4()">
+     </div>
+    <script src = 'JS/P1.js'></script>
+    <script src = 'JS/P2.js'></script>
+    <script src = 'JS/P3.js'></script>
+    <script src = 'JS/P4.js'></script>
+</body>
+</html>
