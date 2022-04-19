@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Informacion del equipo de computacion</h1>
+    <br> 
+    <section>
+    <h3>Datos del alumno:</h3>
+        <br>
+        <form method="post" name="informacion" 
+        onsubmit="return validar(this)"  action="">
+            <label> Nombre: </label>
+            <br>
+            <input type="text" name="nombre" id="nombre" >
+            <br>
+            <label> Boleta: </label>
+            <br>
+            <input type="number" name="boleta" id="boleta" >
+            <br>
+            <label> Grupo: </label>
+            <br>
+            <input type="text" name="grupo" id="grupo" >
+            <br>
+            <label> Turno: </label>
+            <br>
+            <input type="text" name="turno" id="turno" >
+            <br>
+            <input type="submit" name="enviar" value="Enviar Datos" >
+            <br>
+            <input type="reset" name="borrar" value="Borrrar Datos">
+        </form>
+        </section>
+        <br> 
+        <br>
+        <section>
+    <h3>Datos de la maquina:</h3>
+    <br>
+        <form method="post" name="datos" onsubmit="return validar(this)"  action="">
+            <label> Numero: </label>
+            <br>
+            <input type="number" name="numero" id="numero" >
+            <br>
+            <label> Teclado: </label>
+            <br>
+            <input type="text" name="teclado" id="teclado" >
+            <br>
+            <label> Mouse: </label>
+            <br>
+            <input type="text" name="mouse" id="mouse" >
+            <br>
+            <label> Marca: </label>
+            <br>
+            <input type="text" name="marca" id="marca" >
+            <br>
+            <label> Laboratorio: </label>
+            <br>
+            <input type="text" name="laboratorio" id="laboratorio" >
+            <br>
+            <label> Carrera: </label>
+            <br>
+            <input type="text" name="carrera" id="carrera" >
+            <br>
+            <input type="submit" name="enviar" value="Enviar Datos" >
+            <br>
+            <input type="reset" name="borrar" value="Borrrar Datos">
+        </form>
+        </section>
+        <footer>
+            <p>Nombre: 
+                Torres Gonzalez Damarix Ketzal
+            </p>
+            <br>
+            <p>Grupo: 
+                4IV7</p>
+        </footer>
+</body>
+</html>
